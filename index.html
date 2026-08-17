@@ -247,6 +247,11 @@
     .toolbar{ display:none; }
     .invoice{ border:2px solid var(--pink); max-width:100%; }
     .add-row-btn{ display:none; }
+    *{
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+      color-adjust: exact !important;
+    }
   }
   @media (max-width:600px){
     .header{ flex-direction:column; text-align:center; }
